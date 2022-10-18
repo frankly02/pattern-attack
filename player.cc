@@ -15,6 +15,9 @@ void player::setDefending(bool d) {
 
 int player::attacked(int damage) {
     if (defending) {
+        if (health < maxHealth) {
+            health += 1;
+        }
         return health;
     }
     if (defense >= damage) {
