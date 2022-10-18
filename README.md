@@ -22,3 +22,4 @@ Future version ideas:
   Status effects: Player and enemies can have certain status effects, positive and negative, adding another layer to consider
   Boss fights: At set intervals, create a stronger than normal enemy for the player to face
   Equipment: Player can equip equipment for stat buffs and possible additional effects
+  GUI: Create a Graphical User Interface, making user input easier much more visually appealing, and easier
