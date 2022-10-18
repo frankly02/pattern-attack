@@ -36,6 +36,9 @@ char enemy::getAction(){
 
 int enemy::attacked(int damage){
     if (defending) {
+        if (health < maxHealth) {
+            health += 1;
+        }
         return health;
     }
     if (defense >= damage) {
